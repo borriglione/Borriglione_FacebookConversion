@@ -1,0 +1,38 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * @category   Borriglione
+ * @package    Borriglione_FacebookConversion
+ * @copyright  Copyright (c) 2014 Andre Herrn <info@andre-herrn.de>
+ * @license    http://opensource.org/licenses/osl-3.0.php  Open Software License (OSL 3.0)
+ * @author     André Herrn <info@andre-herrn.de>
+ */
+-->
+<config>
+    <modules>
+        <Borriglione_FacebookConversion>
+            <version>0.1.1</version>
+        </Borriglione_FacebookConversion>
+    </modules>
+    <global>
+        <blocks>
+            <borriglione_facebookconversion>
+                <class>Borriglione_FacebookConversion_Block</class>
+            </borriglione_facebookconversion>
+        </blocks>
+        <helpers>
+            <borriglione_facebookconversion>
+                <class>Borriglione_FacebookConversion_Helper</class>
+            </borriglione_facebookconversion>
+        </helpers>
+    </global>
+    <frontend>
+        <layout>
+            <updates>
+                <borriglione_facebookconversion module="Borriglione_FacebookConversion">
+                    <file>borriglione_facebookconversion.xml</file>
+                </borriglione_facebookconversion>
+            </updates>
+        </layout>
+    </frontend>
+</config>

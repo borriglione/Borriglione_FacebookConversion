@@ -1,0 +1,4 @@
+app/etc/modules/Borriglione_FacebookConversion.xml app/etc/modules/Borriglione_FacebookConversion.xml
+app/code/community/Borriglione/FacebookConversion app/code/community/Borriglione/FacebookConversion
+app/design/frontend/base/default/layout/borriglione_facebookconversion.xml app/design/frontend/base/default/layout/borriglione_facebookconversion.xml
+app/design/frontend/base/default/template/facebook app/design/frontend/base/default/template/facebook

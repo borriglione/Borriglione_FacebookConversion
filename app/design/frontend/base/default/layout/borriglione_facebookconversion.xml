@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<layout version="0.1.0">
+    <checkout_onepage_success translate="label">
+        <reference name="before_body_end">
+            <block
+                type="borriglione_facebookconversion/checkout_success"
+                name="facebook_conversion_checkout_success"
+                as="facebook_conversion_checkout_success">
+                <action method="setTemplate" ifconfig="borriglione_facebookconversion/checkout_success/active">
+                    <name>facebook/checkout/success.phtml</name>
+                </action>
+            </block>
+        </reference>
+    </checkout_onepage_success>
+</layout>

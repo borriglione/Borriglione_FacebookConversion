@@ -1,0 +1,16 @@
+{
+    "name": "borriglione/facebook-conversion",
+    "license": "GPL-3.0",
+    "type": "magento-module",
+    "description": "Adds Magento Facebook Conversion tracking code on checkout success page",
+    "require": {
+        "magento-hackathon/magento-composer-installer": "*"
+    },
+    "authors":[
+        {
+            "name":"André Herrn",
+            "email":"info@andre-herrn.de"
+        }
+    ]
+}
+
